@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    }
+/* header section start here */
+    main {
+    margin: auto;
+    width: 95%;
+    
+    }
+    header{
+        background: #160091;
+    }
+    .nav-link{
+        color: white!important;
+    }
+    li.nav-item{
+        margin: 0px -5px;
+        font-family: monospace;
+    }
+    .navbar-nav{
+        font-size: 18px!important;
+    }
+    
+    .play:hover{
+        background: #ffc4133f;
+        transform: skew(1);
+        transition: 0.75s;
+        }
+    /* header section end here */
+    /* slider section start here */
+    .slider-Img{
+    background:linear-gradient(45deg, #06003673, #4057ffad), url(image/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    background-attachment: fixed;
+    }
+     /* slider section end here */
+   /*service Section start here*/
+
+   .service-col-icon{
+       font-size: 60px;
+   }
+
+     #carosule-button {
+     border-radius: 100%;
+     width: 10px!important;
+     background: #0012e5;
+     transform: rotateX(63deg);
+    }
+ /* service Section end here*/
+ /* mission Section start here*/
+    .mission-img {
+    background: linear-gradient(45deg, #006cb887, #915e0078), url(image/4.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .mission-colam2{
+    background: #160091;
+    color: white;
+    text-align: justify;
+    }
+    .Discussion{
+        background: #02007e;
+        color: white;
+        height: 200px;
+        text-align: justify;
+    }
+    .Development{
+        background: #ffd000;
+        color: black;
+        height: 200px;
+        text-align: justify;
+    }
+    .Release-project{
+        background: #002bb9;
+        color: white;
+        height: 200px;
+        text-align: justify;
+    }
+ /* mission Section end here*/
+ /* about Section start here*/
+ .want-work{
+     background: #160091;
+     color: white;
+ }
+ /* about Section end here*/
+ /* Industries Section start here*/
+ .seconary-bg {
+    background: grey;
+    height: 235px;
+}
+
+.red-bg {
+    background: #ffbf00;
+    height: 235px;
+    color: #02007e;
+}
+#carosule-button-industries {
+    border-radius: 100%;
+    width: 10px!important;
+    background: #0012e5;
+    transform: rotateX(63deg);
+   }
+
+ /* Industries Section end here*/
+ /* mentor Section start here*/
+ .col-3.ms-auto.d-grid.align-items-start {
+    display: flex;
+    place-items: end;
+}
+#carosule-button-mentor {
+    border-radius: 100%;
+    width: 10px!important;
+    background: #facc00;
+    transform: rotateX(63deg);
+   }
+ /* mentor Section end here*/
+ /* Contact Section start here */
+ .contact-section{
+     background: #160091;
+     text-align: justify;
+ }
+ .contact-form-bg{
+    background: #4d48b3!important;
+    color: white!important;
+ }
+ /* Contact Section end here */
